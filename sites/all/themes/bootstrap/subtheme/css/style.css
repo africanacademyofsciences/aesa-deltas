@@ -1,0 +1,242 @@
+/**
+ * Place your custom styles here.
+ */
+
+/*Stylesheet written for the AESA COP Front-end
+By: Nelson Kimaiga*/
+
+/*fonts import*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*font-awsome*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+html, body {
+    font-family: 'Raleway', serif;
+    font-size: 14px;
+    text-align: justify;
+    background-color: #f0f0fb;
+}
+
+.lead{
+	text-align: center;
+	text-transform: capitalize;
+}
+
+/*navigation bar*/
+.navbar-default {
+    background-color: #003a70;
+    border-color: #e7e7e7;
+    color: fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #D08B0B;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+/*end of navigation*/
+
+/*Block content*/
+h2.block-title{
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.panel-title{
+	text-align: left;
+}
+
+/*images*/
+img{
+	border-radius: 6px;
+}
+/*search form*/
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    height: 37.45px;
+}
+
+/*custom styles for site buttons*/
+
+.btn {
+    display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  background-color: #2199e8;
+  color: #fefefe; 
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'],
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.4375rem;
+  padding: 0.5rem;
+  border: 1px solid #cacaca;
+  margin: 0 0 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #0a0a0a;
+  background-color: #fefefe;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  border-radius: 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+  [type='text']:focus, [type='password']:focus, [type='submit']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
+  textarea:focus {
+    border: 1px solid #8a8a8a;
+    background-color: #fefefe;
+    outline: none;
+    box-shadow: 0 0 5px #cacaca;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
+
+textarea {
+  max-width: 100%; }
+  textarea[rows] {
+    height: auto; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cacaca; }
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #cacaca; }
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cacaca; }
+
+input::placeholder,
+textarea::placeholder {
+  color: #cacaca; }
+
+input:disabled, input[readonly],
+textarea:disabled,
+textarea[readonly] {
+  background-color: #e6e6e6;
+  cursor: not-allowed; }
+
+/*newsletter unsubscribe button*/
+button#edit-unsubscribe{
+	background-color: #A6241E;
+}
+
+/*newsletter subscribe button*/
+button#edit-subscribe{
+background-color: #DEB200;
+}
+
+/*login button*/
+button#edit-submit--2{
+	background-color: #065034;
+}
+
+h1.page-header{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+div#login-message{
+	text-transform: capitalize;
+}
+
+/*footer*/
+
+#footer {
+    position: absolute;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #003a70;
+    padding-bottom: 12px;
+    padding-top: 32px;
+    text-transform: capitalize;
+}
+
+.foot {
+    /*    font-weight: 300;*/
+    text-transform: uppercase;
+    margin-bottom: -2px;
+}
+
+.toof {
+    padding-bottom: 40px;
+}
+
+.toof ul {
+    margin-left: -1px;
+}
+
+#footer a {
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+#footer a:hover {
+    color: #f2a900;
+}
+
+.social {
+    margin-top: 24px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social:hover {
+    background-color: white;
+}
+
+.copyrght{
+	text-align: center;
+}
