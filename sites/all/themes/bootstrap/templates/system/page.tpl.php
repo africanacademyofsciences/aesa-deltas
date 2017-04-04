@@ -114,8 +114,7 @@
   </div>
 </header>
 
-<div class="main-container <?php print $container_class; ?>">
-
+<div class="main-container" style="padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
@@ -166,7 +165,48 @@
 </div>
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
+  <footer class="footer" id="featured" style="background-color: #353B47; bottom: 0; color: #FFFFFF; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+        <div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <p class="tt">Featured Links
+                    <br/>
+                    <a href="index.html">AESA Community of Practice</a>
+                    <br>
+                    <a href="http://www.aasciences.ac.ke" target="_blank">The African Academy of Sciences</a>
+                    <br>
+                    <a href="http://www.aesa.ac.ke" target="_blank"> The Alliance for Accelerating Excellence in Science in Africa</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <p class="tt">Follow Us
+                    <br/>
+
+                    <a class="foot" href="https://twitter.com/AASciences" target="_blank">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                    <a class="foot" href="https://www.facebook.com/aasciences/" target="_blank">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                    <a class="foot" href="https://www.youtube.com/channel/UCtdLgoNICbdUFqkw-ph508g" target="_blank">
+                        <i class="fa fa-youtube fa-2x"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <p class="tt">Contact Us
+                    <br/>
+                    <a href="http://aesa.ac.ke/privacy-policy/" target="_blank"><i class="fa fa-lock fa-lg"></i> Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+        <!-- curent date and year to appear on footer-->
+        <div class="row" id="copyright" style="text-align: center;">
+            &copy; The African Academy of Sciences.
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+        </div>
+    </div>
   </footer>
 <?php endif; ?>
