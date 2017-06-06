@@ -77,8 +77,8 @@
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if ($logo): ?>
-        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" style="background-color: #FFFFFF; border-radius: 500px;">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="50">
         </a>
       <?php endif; ?>
 
@@ -171,7 +171,7 @@
             <div class="col-lg-4 col-md-4">
                 <p class="tt">Featured Links
                     <br/>
-                    <a href="index.html">AESA Community of Practice</a>
+                    <a href="http://coplandingpage.azurewebsites.net/" target="_blank">AESA Community of Practice</a>
                     <br>
                     <a href="http://www.aasciences.ac.ke" target="_blank">The African Academy of Sciences</a>
                     <br>
