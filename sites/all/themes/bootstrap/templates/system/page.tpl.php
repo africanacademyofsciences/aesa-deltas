@@ -77,7 +77,7 @@
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if ($logo): ?>
-        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" style="background-color: #FFFFFF; border-radius: 500px;">
+        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" style="background-color: #FFFFFF; border-radius: 10px;">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="50">
         </a>
       <?php endif; ?>

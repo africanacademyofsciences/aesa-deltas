@@ -117,6 +117,9 @@ a {
     text-decoration: none;
 }
 
+.navbar-nav > li > a:hover{
+  color: #DEB200;
+}
 /*end of navigation*/
 
 /*Block content*/
