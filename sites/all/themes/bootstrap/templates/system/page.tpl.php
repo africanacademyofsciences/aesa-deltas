@@ -117,7 +117,7 @@
 <div class="main-container" style="padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
+      <p class="lead" style="font-style: italic; font-weight: 650;"><?php print $site_slogan; ?></p>
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
@@ -165,7 +165,7 @@
 </div>
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer" id="featured" style="background-color: #353B47; bottom: 0; color: #FFFFFF; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
+  <footer class="footer" id="featured" style="background-color: #003A70; bottom: 0; color: #FFFFFF; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;">
         <div>
         <div class="row">
             <div class="col-lg-4 col-md-4">

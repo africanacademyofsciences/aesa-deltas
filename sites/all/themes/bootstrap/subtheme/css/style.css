@@ -15,7 +15,7 @@ html, body {
     font-family: 'Raleway', serif;
     font-size: 14px;
     text-align: justify;
-    background-color: #f0f0fb;
+    background-color: #FFFFFF;
 }
 
 /* latin-ext */
@@ -81,6 +81,10 @@ pre {
 	text-transform: capitalize;
 }
 
+header h2 a{
+	color: #F26522;
+}
+
 /*navigation bar*/
 .navbar-default {
     background-color: #003a70;
@@ -94,7 +98,7 @@ pre {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #FFFFFF;
-    background-color: #D08B0B;
+    background-color: #f26522;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -112,10 +116,17 @@ pre {
     display: block;
     padding: 10px 15px;
 }
+
 a {
-    color: #337ab7;
+    color: #003A70;
     text-decoration: none;
 }
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #F26522;
+    background-color: transparent;
+}
+
 
 /*end of navigation*/
 
@@ -159,7 +170,7 @@ img{
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  background-color: #F26522;
   color: #fefefe; 
 }
 
@@ -258,6 +269,9 @@ div#login-message{
     padding-top: 32px;
     text-transform: capitalize;
 }
+.tt a{
+	color: #D08B0B;
+}
 
 .foot {
     /*    font-weight: 300;*/
@@ -280,7 +294,7 @@ div#login-message{
 }
 
 #footer a:hover {
-    color: #f2a900;
+    color: #F26522;
 }
 
 .social {
@@ -312,4 +326,55 @@ header.navbar.container{
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+/*forums*/
+.forum-table-wrap .forum-table-superheader, .forum-table-topics thead tr {
+    border-top: 1px solid #2587C4;
+    background: #2587C4;
+    /*background: -webkit-gradient(linear,left top,left bottom,from(#2587C4),to(#58B3ED));*/
+    /*background: -moz-linear-gradient(top,#2587C4,#142E3F);*/
+    background-color: #F26522;
+    color: #EDF5FA;
+}
+
+.forum-table tr.even, .forum-table tr.odd {
+    border: none;
+    border-top: 1px solid #FFFFFF;
+    background: #EDF5FA;
+/*    background: -webkit-gradient(linear,left top,left bottom,from(#CBE2F1),to(#EDF5FA));
+    background: -moz-linear-gradient(top,#CBE2F1,#EDF5FA);*/
+    background-color: #F7A37A;
+    color: #003A70;
+
+}
+
+#forum-statistics-header {
+    border-top: 1px solid #2587C4;
+    background: #F7A37A;
+    /*background: -webkit-gradient(linear,left top,left bottom,from(#2587C4),to(#58B3ED));
+    background: -moz-linear-gradient(top,#2587C4,#58B3ED);*/
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 1px solid #003A70;
+}
+
+.forum-statistics-sub-header {
+    background-color: #FCD8C8;
+    font-weight: bold;
+}
+
+
+.forum-post-info {
+    border-top: 1px solid #2587C4;
+    background: #F26522;
+   /* background: -webkit-gradient(linear,left top,left bottom,from(#2587C4),to(#58B3ED));
+    background: -moz-linear-gradient(top,#09334E,#58B3ED);*/
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 1px solid #2587C4;
+}
+
+.forum-post-wrapper {
+	background: #F7A37A;
 }
