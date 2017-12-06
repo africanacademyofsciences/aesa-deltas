@@ -260,66 +260,119 @@ div#login-message{
 
 /*footer*/
 
-#footer {
-    position: absolute;
-    width: 100%;
-    color: #FFFFFF;
-    background-color: #003a70;
-    padding-bottom: 12px;
-    padding-top: 32px;
-    text-transform: capitalize;
-}
-.tt a{
-	color: #D08B0B;
+footer {
+    
+    color: #fff;
+    padding: 50px 0;
 }
 
-.foot {
-    /*    font-weight: 300;*/
-    text-transform: uppercase;
-    margin-bottom: -2px;
+footer .prefooter-left {
+    float: right;
+    width: 88%;
 }
 
-.toof {
-    padding-bottom: 40px;
-}
-
-.toof ul {
-    margin-left: -1px;
-}
-
-#footer a {
-    font-size: 14px;
-    color: white;
-    margin: 0px;
-}
-
-#footer a:hover {
-    color: #F26522;
-}
-
-.social {
-    margin-top: 24px;
-    padding: 12px;
+footer .prefooter-left p {
     font-size: 18px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 100px;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.social:hover {
-    background-color: white;
+footer .prefooter-right {
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 4px;
 }
 
-.copyrght{
-	text-align: center;
+.prefooter-right {
+    text-align: left;
+}
+
+#btn-exit.wb {
+    border-color: #fff;
+    color: #fff;
+}
+
+#btn-exit {
+    font-size: 18px;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    display: inline-block;
+    padding: 7px 15px 7px 40px;
+    line-height: 1.4;
+    font-weight: 700;
+    position: relative;
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+
+footer .footer-menu ul {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+}
+
+footer .footer-menu ul li {
+    display: inline-block;
+    margin: 0 8px 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10.5px;
 }
 
 
-#featured {
-    background-color: #353B47;
-    bottom: 0;
-    color: #FFFFFF;
+footer .footer-menu {
+    text-align: center;
 }
+
+footer .footer-menu ul li a:hover {
+    color: #D08B0B;
+}
+footer .footer-menu ul li a {
+    font-size: 13px;
+    color: #fff;
+}
+footer a:hover {
+    color: #D08B0B;
+}
+a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+footer .social-footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer .social-footer ul {
+    padding: 8px 0;
+}
+
+footer .social-footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer .disclaimer-footer p {
+    font-size: 13px;
+}
+
+footer .prefooter-right {
+    text-align: left;
+}
+
+
+
+
+
 
 header.navbar.container{
   padding-right: 15px;
