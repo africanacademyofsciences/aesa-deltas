@@ -140,7 +140,7 @@
                                                 </div>
                                                 <?php endif; ?>
                                         </div>
-                                        <img src="<?php print base_path() . drupal_get_path('theme', 'venture_theme') . '/images/slide-image-2.jpg'; ?>">
+                                        <img src="<?php print base_path() . drupal_get_path('theme', 'venture_theme') . '/images/slide-image-2.png'; ?>">
                                     </a>
                                 </li>
                                 <li class="homepage-slider-slide">
