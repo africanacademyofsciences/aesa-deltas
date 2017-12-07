@@ -78,6 +78,7 @@
                                     <h2 id="site-name">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         </h2>
+        <img src="http://deltas.aesacop.ac.ke/sites/default/files/aesa-logo.jpg" style="width: 13.5%;">
                                     <?php endif; ?>
                 </div>
                 <div id="sidr-close">
